@@ -1,6 +1,6 @@
 # Tipera - Type Tester
 
-This Tipera game was made in **2 hours** for High Seas. It is a typing game where you choose between quotes or dictionary words to type and get your results at the end.
+This typing game was made in **2 hours** for High Seas. It is a typing game where you choose between quotes or dictionary words to type and get your results at the end.
 
 ## How to Play
 
@@ -19,4 +19,4 @@ This Tipera game was made in **2 hours** for High Seas. It is a typing game wher
 ## Credits
 
 Made by LemonGravy for High Seas
-The quotes and dictionary were sourced from the english vocabulary and (Quotable)[https://github.com/lukePeavey/quotable/]
+The quotes and dictionary were sourced from the english vocabulary and [Quotable](https://github.com/lukePeavey/quotable/)
