@@ -1,0 +1,53 @@
+body {
+    background-color: #121212;
+    color: #ffffff;
+    font-family:monospace, 'Courier New', Courier, monospace;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:100vh;
+    margin:0;
+}
+#app {
+    width: 100%;
+    max-width: 800px;
+    text-align: center;
+}
+#mode-select {
+    margin-bottom: 20px;
+}
+button {
+    background-color: #1f1f1f;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+button:hover {
+    background-color: #333333;
+}
+#word-display {
+    font-size: 24px;
+    margin-bottom: 20px;
+    text-align: left;
+}
+#word-input {
+    width: 100%;
+    padding: 10px;
+    font-size: 18px;
+    border: 1px solid #1f1f1f;
+    background-color: #333333;
+    color: #ffffff
+
+}
+#results {
+    margin-top: 20px;
+    font-size: 18px;
+    text-align: left;
+}
+.correct {
+    color: greenyellow
+}
+.incorrect {
+    color: red
+}
