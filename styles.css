@@ -1,12 +1,12 @@
 body {
     background-color: #121212;
     color: #ffffff;
-    font-family:monospace, 'Courier New', Courier, monospace;
+    font-family: monospace, 'Courier New', Courier, monospace;
     display: flex;
     justify-content: center;
     align-items: center;
-    height:100vh;
-    margin:0;
+    height: 100vh;
+    margin: 0;
 }
 #app {
     width: 100%;
@@ -37,8 +37,7 @@ button:hover {
     font-size: 18px;
     border: 1px solid #1f1f1f;
     background-color: #333333;
-    color: #ffffff
-
+    color: #ffffff;
 }
 #results {
     margin-top: 20px;
@@ -46,8 +45,26 @@ button:hover {
     text-align: left;
 }
 .correct {
-    color: greenyellow
+    color: greenyellow;
 }
 .incorrect {
-    color: red
+    color: red;
 }
+#title {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+#word-count-select { 
+    background-color: #1f1f1f;
+    color: #ffffff;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    margin-left: 10px;
+}
+#word-count-select option {
+    background-color: #1f1f1f;
+    color: #ffffff;
+}
+

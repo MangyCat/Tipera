@@ -3,14 +3,22 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tipera</title>
+    <title>Tipera - Type Tester</title>
     <link rel="stylesheet" href="styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 </head>
 <body>
     <div id="app">
+        <h1 id="title">Tipera - Type Tester</h1>
         <div id="mode-select">
-            <button id="dictionary-mode">Dictionary mode</button>
-            <button id="quote-mode">Quote mode</button>
+            <button id="dictionary-mode">Dictionary Mode</button>
+            <button id="quote-mode">Quote Mode</button>
+            <select id="word-count-select">
+                <option value="10">10 Words</option>
+                <option value="20">20 Words</option>
+                <option value="30">30 Words</option>
+                <option value="50">50 Words</option>
+            </select>
         </div>
         <div id="game">
             <div id="word-display"></div>
@@ -19,9 +27,15 @@
             </form>            
             <div id="results"></div>
         </div>
+        
+        <!-- Live WPM Graph Section - Initially Hidden, recently added, along with dropdown in latest v2 update -->
+        <div id="graphs" style="display: none;">
+            <canvas id="wpmChart"></canvas>
+        </div>
     </div>
-    <audio id="key-sound" src="key-sound.mp3" preload="auto"></audio>
+    <audio id="key-sound" src="key-sound.mp3" preload="auto"></audio> 
     <script src="dictionary.js"></script>
     <script src="scripts.js"></script>
+    <script src="charts.js"></script>
 </body>
 </html>
